@@ -1,0 +1,6 @@
+[console_scripts]
+find_wall_server = my_turtle.wall_finder_server:main
+stop_on_obstacle = my_turtle.turtle_avoid_wall:main
+time_lap_client = my_turtle.lap_time_action_client:main
+time_lap_server = my_turtle.lap_time_action_server:main
+

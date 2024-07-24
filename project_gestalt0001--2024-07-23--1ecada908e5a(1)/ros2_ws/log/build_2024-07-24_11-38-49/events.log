@@ -1,0 +1,600 @@
+[0.000000] (-) TimerEvent: {}
+[0.000691] (my_interfaces) JobQueued: {'identifier': 'my_interfaces', 'dependencies': OrderedDict()}
+[0.002297] (my_turtle) JobQueued: {'identifier': 'my_turtle', 'dependencies': OrderedDict()}
+[0.002741] (my_interfaces) JobStarted: {'identifier': 'my_interfaces'}
+[0.021254] (my_turtle) JobStarted: {'identifier': 'my_turtle'}
+[0.085769] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'cmake'}
+[0.088549] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/my_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/my_interfaces'], 'cwd': '/home/user/ros2_ws/build/my_interfaces', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/my_interfaces'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/my_turtle:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/my_turtle:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '810513'), ('SLOT_PREFIX', '2e5fb2ee-c1c1-4cc3-a110-f5667178b539'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25314'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.102487] (-) TimerEvent: {}
+[0.120289] (my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.202613] (-) TimerEvent: {}
+[0.303746] (-) TimerEvent: {}
+[0.406761] (-) TimerEvent: {}
+[0.507155] (-) TimerEvent: {}
+[0.607532] (-) TimerEvent: {}
+[0.625485] (my_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.707644] (-) TimerEvent: {}
+[0.809216] (-) TimerEvent: {}
+[0.915388] (-) TimerEvent: {}
+[0.928993] (my_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/home/simulations/ros2_sims_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)\n'}
+[0.980185] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.985622] (my_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.015563] (-) TimerEvent: {}
+[1.115941] (-) TimerEvent: {}
+[1.130193] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.219692] (-) TimerEvent: {}
+[1.320012] (-) TimerEvent: {}
+[1.421077] (-) TimerEvent: {}
+[1.521590] (-) TimerEvent: {}
+[1.625183] (-) TimerEvent: {}
+[1.725773] (-) TimerEvent: {}
+[1.826168] (-) TimerEvent: {}
+[1.926745] (-) TimerEvent: {}
+[2.027221] (-) TimerEvent: {}
+[2.127573] (-) TimerEvent: {}
+[2.227502] (my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.227766] (-) TimerEvent: {}
+[2.331154] (-) TimerEvent: {}
+[2.440114] (-) TimerEvent: {}
+[2.540523] (-) TimerEvent: {}
+[2.611808] (my_turtle) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_turtle', 'build', '--build-base', '/home/user/ros2_ws/build/my_turtle/build', 'install', '--record', '/home/user/ros2_ws/build/my_turtle/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/ros2_ws/src/my_turtle', 'env': {'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GAZEBO_MASTER_URI': 'http://2_xterm:11345', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '2_xterm', 'PWD': '/home/user/ros2_ws/build/my_turtle', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_IP': '', 'HOME': '/home/user', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'LANG': 'en_US.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/my_turtle:/opt/ros/humble', 'CMAKE_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/build/my_turtle/prefix_override:/home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '2_xterm', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://2_xterm:11311', 'ROS_HOSTNAME': '2_xterm', 'LD_LIBRARY_PATH': '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'ROS_LOCALHOST_ONLY': '0', 'SLOT_SHELL_START_ID': '810513', 'SLOT_PREFIX': '2e5fb2ee-c1c1-4cc3-a110-f5667178b539', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': '', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25314', 'SLOT_SYSTEMD': 'False', 'PATH': '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin', 'SELECTED_ROS_DISTRO': 'humble', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin', 'NODE_VERSION': 'v8.17.0', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'humble', 'GAZEBO_VERBOSE': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'OLDPWD': '/home/user/ros2_ws/src', 'SOURCE_ROS2_WS': 'True', 'SLOT_ROSBRIDGE_PORT': '20002', '_': '/usr/bin/env'}, 'shell': False}
+[2.644768] (-) TimerEvent: {}
+[2.748202] (-) TimerEvent: {}
+[2.849842] (-) TimerEvent: {}
+[2.985970] (-) TimerEvent: {}
+[3.086898] (-) TimerEvent: {}
+[3.187408] (-) TimerEvent: {}
+[3.287771] (-) TimerEvent: {}
+[3.388181] (-) TimerEvent: {}
+[3.391398] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.481173] (my_turtle) StdoutLine: {'line': b'running egg_info\n'}
+[3.483320] (my_turtle) StdoutLine: {'line': b'writing ../../build/my_turtle/my_turtle.egg-info/PKG-INFO\n'}
+[3.483597] (my_turtle) StdoutLine: {'line': b'writing dependency_links to ../../build/my_turtle/my_turtle.egg-info/dependency_links.txt\n'}
+[3.483842] (my_turtle) StdoutLine: {'line': b'writing entry points to ../../build/my_turtle/my_turtle.egg-info/entry_points.txt\n'}
+[3.484052] (my_turtle) StdoutLine: {'line': b'writing requirements to ../../build/my_turtle/my_turtle.egg-info/requires.txt\n'}
+[3.485175] (my_turtle) StdoutLine: {'line': b'writing top-level names to ../../build/my_turtle/my_turtle.egg-info/top_level.txt\n'}
+[3.488332] (-) TimerEvent: {}
+[3.488898] (my_turtle) StdoutLine: {'line': b"reading manifest file '../../build/my_turtle/my_turtle.egg-info/SOURCES.txt'\n"}
+[3.490533] (my_turtle) StdoutLine: {'line': b"writing manifest file '../../build/my_turtle/my_turtle.egg-info/SOURCES.txt'\n"}
+[3.490743] (my_turtle) StdoutLine: {'line': b'running build\n'}
+[3.491124] (my_turtle) StdoutLine: {'line': b'running build_py\n'}
+[3.491335] (my_turtle) StdoutLine: {'line': b'copying my_turtle/wall_finder_server.py -> /home/user/ros2_ws/build/my_turtle/build/lib/my_turtle\n'}
+[3.491442] (my_turtle) StdoutLine: {'line': b'copying my_turtle/turtle_avoid_wall.py -> /home/user/ros2_ws/build/my_turtle/build/lib/my_turtle\n'}
+[3.491765] (my_turtle) StdoutLine: {'line': b'running install\n'}
+[3.492214] (my_turtle) StdoutLine: {'line': b'running install_lib\n'}
+[3.493457] (my_turtle) StdoutLine: {'line': b'copying /home/user/ros2_ws/build/my_turtle/build/lib/my_turtle/wall_finder_server.py -> /home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages/my_turtle\n'}
+[3.493809] (my_turtle) StdoutLine: {'line': b'copying /home/user/ros2_ws/build/my_turtle/build/lib/my_turtle/turtle_avoid_wall.py -> /home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages/my_turtle\n'}
+[3.495439] (my_turtle) StdoutLine: {'line': b'byte-compiling /home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages/my_turtle/wall_finder_server.py to wall_finder_server.cpython-310.pyc\n'}
+[3.496597] (my_turtle) StdoutLine: {'line': b'byte-compiling /home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages/my_turtle/turtle_avoid_wall.py to turtle_avoid_wall.cpython-310.pyc\n'}
+[3.497354] (my_turtle) StdoutLine: {'line': b'running install_data\n'}
+[3.514173] (my_turtle) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.514736] (my_turtle) StdoutLine: {'line': b"removing '/home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages/my_turtle-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.514915] (my_turtle) StdoutLine: {'line': b'Copying ../../build/my_turtle/my_turtle.egg-info to /home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages/my_turtle-0.0.0-py3.10.egg-info\n'}
+[3.515034] (my_turtle) StdoutLine: {'line': b'running install_scripts\n'}
+[3.588486] (-) TimerEvent: {}
+[3.590923] (my_turtle) StdoutLine: {'line': b'Installing stop_on_obstacle script to /home/user/ros2_ws/install/my_turtle/lib/my_turtle\n'}
+[3.599428] (my_turtle) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/build/my_turtle/install.log'\n"}
+[3.680206] (my_turtle) CommandEnded: {'returncode': 0}
+[3.688626] (-) TimerEvent: {}
+[3.697362] (my_turtle) JobEnded: {'identifier': 'my_turtle', 'rc': 0}
+[3.788755] (-) TimerEvent: {}
+[3.889303] (-) TimerEvent: {}
+[3.990032] (-) TimerEvent: {}
+[4.093252] (-) TimerEvent: {}
+[4.196817] (-) TimerEvent: {}
+[4.308619] (-) TimerEvent: {}
+[4.409713] (-) TimerEvent: {}
+[4.446527] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.496086] (my_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.511206] (-) TimerEvent: {}
+[4.612510] (-) TimerEvent: {}
+[4.712909] (-) TimerEvent: {}
+[4.813363] (-) TimerEvent: {}
+[4.914226] (-) TimerEvent: {}
+[5.014602] (-) TimerEvent: {}
+[5.114977] (-) TimerEvent: {}
+[5.215795] (-) TimerEvent: {}
+[5.320417] (-) TimerEvent: {}
+[5.420787] (-) TimerEvent: {}
+[5.522943] (-) TimerEvent: {}
+[5.623598] (-) TimerEvent: {}
+[5.724114] (-) TimerEvent: {}
+[5.829622] (-) TimerEvent: {}
+[5.929943] (-) TimerEvent: {}
+[6.020715] (my_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.030063] (-) TimerEvent: {}
+[6.131210] (-) TimerEvent: {}
+[6.134911] (my_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.231450] (-) TimerEvent: {}
+[6.332471] (-) TimerEvent: {}
+[6.432871] (-) TimerEvent: {}
+[6.494244] (my_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[6.515216] (my_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.533019] (-) TimerEvent: {}
+[6.634048] (-) TimerEvent: {}
+[6.724213] (my_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[6.724583] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.724738] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.724831] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.734358] (-) TimerEvent: {}
+[6.789459] (my_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.836135] (-) TimerEvent: {}
+[6.936499] (-) TimerEvent: {}
+[7.039906] (-) TimerEvent: {}
+[7.141142] (-) TimerEvent: {}
+[7.196178] (my_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.197789] (my_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.226585] (my_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.242249] (-) TimerEvent: {}
+[7.333224] (my_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[7.342433] (-) TimerEvent: {}
+[7.443870] (-) TimerEvent: {}
+[7.475454] (my_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/my_interfaces\n'}
+[7.498582] (my_interfaces) CommandEnded: {'returncode': 0}
+[7.499200] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'build'}
+[7.499253] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/my_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/my_interfaces', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/my_interfaces'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/my_turtle:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/my_turtle:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '810513'), ('SLOT_PREFIX', '2e5fb2ee-c1c1-4cc3-a110-f5667178b539'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25314'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[7.545545] (-) TimerEvent: {}
+[7.637236] (my_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[7.645662] (-) TimerEvent: {}
+[7.746169] (-) TimerEvent: {}
+[7.848817] (-) TimerEvent: {}
+[7.951473] (-) TimerEvent: {}
+[8.051817] (-) TimerEvent: {}
+[8.152958] (-) TimerEvent: {}
+[8.253949] (-) TimerEvent: {}
+[8.354296] (-) TimerEvent: {}
+[8.454670] (-) TimerEvent: {}
+[8.564128] (-) TimerEvent: {}
+[8.668283] (-) TimerEvent: {}
+[8.761254] (my_interfaces) StdoutLine: {'line': b'[  3%] Built target my_interfaces__rs\n'}
+[8.768474] (-) TimerEvent: {}
+[8.860634] (my_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_my_interfaces\n'}
+[8.868707] (-) TimerEvent: {}
+[8.953469] (my_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.980139] (-) TimerEvent: {}
+[9.084887] (-) TimerEvent: {}
+[9.186730] (-) TimerEvent: {}
+[9.287400] (-) TimerEvent: {}
+[9.397474] (-) TimerEvent: {}
+[9.498876] (-) TimerEvent: {}
+[9.599563] (-) TimerEvent: {}
+[9.700516] (-) TimerEvent: {}
+[9.803119] (-) TimerEvent: {}
+[9.893599] (my_interfaces) StdoutLine: {'line': b'[  6%] Built target my_interfaces__cpp\n'}
+[9.904481] (-) TimerEvent: {}
+[10.005688] (-) TimerEvent: {}
+[10.106599] (-) TimerEvent: {}
+[10.207001] (-) TimerEvent: {}
+[10.312135] (-) TimerEvent: {}
+[10.412505] (-) TimerEvent: {}
+[10.513814] (-) TimerEvent: {}
+[10.607000] (my_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[10.667999] (-) TimerEvent: {}
+[10.668248] (my_interfaces) StdoutLine: {'line': b'creating my_interfaces.egg-info\n'}
+[10.668559] (my_interfaces) StdoutLine: {'line': b'writing my_interfaces.egg-info/PKG-INFO\n'}
+[10.670263] (my_interfaces) StdoutLine: {'line': b'writing dependency_links to my_interfaces.egg-info/dependency_links.txt\n'}
+[10.670413] (my_interfaces) StdoutLine: {'line': b'writing top-level names to my_interfaces.egg-info/top_level.txt\n'}
+[10.671505] (my_interfaces) StdoutLine: {'line': b"writing manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[10.675323] (my_interfaces) StdoutLine: {'line': b"reading manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[10.676019] (my_interfaces) StdoutLine: {'line': b"writing manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[10.733286] (my_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_my_interfaces_egg\n'}
+[10.780133] (my_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.780389] (-) TimerEvent: {}
+[10.880703] (-) TimerEvent: {}
+[10.981120] (-) TimerEvent: {}
+[11.081525] (-) TimerEvent: {}
+[11.181941] (-) TimerEvent: {}
+[11.284146] (-) TimerEvent: {}
+[11.388133] (-) TimerEvent: {}
+[11.443992] (my_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/srv/find_wall__type_support.cpp.o\x1b[0m\n'}
+[11.489032] (-) TimerEvent: {}
+[11.592962] (-) TimerEvent: {}
+[11.693996] (-) TimerEvent: {}
+[11.796199] (-) TimerEvent: {}
+[11.897239] (-) TimerEvent: {}
+[11.997680] (-) TimerEvent: {}
+[12.105299] (-) TimerEvent: {}
+[12.206598] (-) TimerEvent: {}
+[12.308141] (-) TimerEvent: {}
+[12.412167] (-) TimerEvent: {}
+[12.516134] (-) TimerEvent: {}
+[12.616578] (-) TimerEvent: {}
+[12.718155] (-) TimerEvent: {}
+[12.818473] (-) TimerEvent: {}
+[12.918841] (-) TimerEvent: {}
+[13.021025] (-) TimerEvent: {}
+[13.122057] (-) TimerEvent: {}
+[13.223183] (-) TimerEvent: {}
+[13.323624] (-) TimerEvent: {}
+[13.424705] (-) TimerEvent: {}
+[13.525475] (-) TimerEvent: {}
+[13.627591] (-) TimerEvent: {}
+[13.727943] (-) TimerEvent: {}
+[13.828349] (-) TimerEvent: {}
+[13.929242] (-) TimerEvent: {}
+[14.029940] (-) TimerEvent: {}
+[14.130385] (-) TimerEvent: {}
+[14.231470] (-) TimerEvent: {}
+[14.332428] (-) TimerEvent: {}
+[14.433342] (-) TimerEvent: {}
+[14.534108] (-) TimerEvent: {}
+[14.634457] (-) TimerEvent: {}
+[14.734799] (-) TimerEvent: {}
+[14.835627] (-) TimerEvent: {}
+[14.936135] (-) TimerEvent: {}
+[15.037051] (-) TimerEvent: {}
+[15.138629] (-) TimerEvent: {}
+[15.239001] (-) TimerEvent: {}
+[15.339794] (-) TimerEvent: {}
+[15.440403] (-) TimerEvent: {}
+[15.505278] (my_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[15.541313] (-) TimerEvent: {}
+[15.644199] (-) TimerEvent: {}
+[15.687790] (my_interfaces) StdoutLine: {'line': b'[ 15%] Built target my_interfaces__rosidl_typesupport_cpp\n'}
+[15.712475] (my_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[15.780127] (-) TimerEvent: {}
+[15.880522] (-) TimerEvent: {}
+[15.980865] (-) TimerEvent: {}
+[16.081268] (-) TimerEvent: {}
+[16.181980] (-) TimerEvent: {}
+[16.282403] (-) TimerEvent: {}
+[16.386093] (-) TimerEvent: {}
+[16.488158] (-) TimerEvent: {}
+[16.588884] (-) TimerEvent: {}
+[16.594973] (my_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/find_wall__type_support.cpp.o\x1b[0m\n'}
+[16.689143] (-) TimerEvent: {}
+[16.789630] (-) TimerEvent: {}
+[16.890153] (-) TimerEvent: {}
+[16.991289] (-) TimerEvent: {}
+[17.091665] (-) TimerEvent: {}
+[17.192170] (-) TimerEvent: {}
+[17.293753] (-) TimerEvent: {}
+[17.394215] (-) TimerEvent: {}
+[17.494845] (-) TimerEvent: {}
+[17.595178] (-) TimerEvent: {}
+[17.696488] (-) TimerEvent: {}
+[17.797354] (-) TimerEvent: {}
+[17.897768] (-) TimerEvent: {}
+[17.902620] (my_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[17.998069] (-) TimerEvent: {}
+[18.100267] (-) TimerEvent: {}
+[18.201791] (-) TimerEvent: {}
+[18.206122] (my_interfaces) StdoutLine: {'line': b'[ 25%] Built target my_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[18.231778] (my_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[18.301916] (-) TimerEvent: {}
+[18.402353] (-) TimerEvent: {}
+[18.502712] (-) TimerEvent: {}
+[18.603112] (-) TimerEvent: {}
+[18.704985] (-) TimerEvent: {}
+[18.805437] (-) TimerEvent: {}
+[18.905905] (-) TimerEvent: {}
+[19.006310] (-) TimerEvent: {}
+[19.095047] (my_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/srv/detail/dds_fastrtps/find_wall__type_support.cpp.o\x1b[0m\n'}
+[19.111063] (-) TimerEvent: {}
+[19.212065] (-) TimerEvent: {}
+[19.314513] (-) TimerEvent: {}
+[19.419817] (-) TimerEvent: {}
+[19.520448] (-) TimerEvent: {}
+[19.620853] (-) TimerEvent: {}
+[19.721284] (-) TimerEvent: {}
+[19.821774] (-) TimerEvent: {}
+[19.922219] (-) TimerEvent: {}
+[20.023599] (-) TimerEvent: {}
+[20.124430] (-) TimerEvent: {}
+[20.225309] (-) TimerEvent: {}
+[20.328915] (-) TimerEvent: {}
+[20.431541] (-) TimerEvent: {}
+[20.531953] (-) TimerEvent: {}
+[20.632440] (-) TimerEvent: {}
+[20.732864] (-) TimerEvent: {}
+[20.997501] (-) TimerEvent: {}
+[21.004728] (my_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[21.098407] (-) TimerEvent: {}
+[21.199058] (-) TimerEvent: {}
+[21.291409] (my_interfaces) StdoutLine: {'line': b'[ 34%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[21.300597] (-) TimerEvent: {}
+[21.323024] (my_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[21.401604] (-) TimerEvent: {}
+[21.502328] (-) TimerEvent: {}
+[21.602680] (-) TimerEvent: {}
+[21.703439] (-) TimerEvent: {}
+[21.803852] (-) TimerEvent: {}
+[21.904209] (-) TimerEvent: {}
+[22.011281] (-) TimerEvent: {}
+[22.111952] (-) TimerEvent: {}
+[22.212398] (-) TimerEvent: {}
+[22.312833] (-) TimerEvent: {}
+[22.387282] (my_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/find_wall__functions.c.o\x1b[0m\n'}
+[22.412949] (-) TimerEvent: {}
+[22.513405] (-) TimerEvent: {}
+[22.614038] (-) TimerEvent: {}
+[22.714341] (-) TimerEvent: {}
+[22.742250] (my_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library libmy_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[22.816407] (-) TimerEvent: {}
+[22.915089] (my_interfaces) StdoutLine: {'line': b'[ 43%] Built target my_interfaces__rosidl_generator_c\n'}
+[22.920125] (-) TimerEvent: {}
+[22.942132] (my_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[23.020244] (-) TimerEvent: {}
+[23.121029] (-) TimerEvent: {}
+[23.221928] (-) TimerEvent: {}
+[23.322389] (-) TimerEvent: {}
+[23.422760] (-) TimerEvent: {}
+[23.567788] (-) TimerEvent: {}
+[23.680141] (-) TimerEvent: {}
+[23.780435] (my_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/find_wall__type_support_c.cpp.o\x1b[0m\n'}
+[23.780730] (-) TimerEvent: {}
+[23.881025] (-) TimerEvent: {}
+[23.982151] (-) TimerEvent: {}
+[24.082745] (-) TimerEvent: {}
+[24.186356] (-) TimerEvent: {}
+[24.286764] (-) TimerEvent: {}
+[24.387167] (-) TimerEvent: {}
+[24.487582] (-) TimerEvent: {}
+[24.588368] (-) TimerEvent: {}
+[24.696152] (-) TimerEvent: {}
+[24.796531] (-) TimerEvent: {}
+[24.813032] (my_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[24.896656] (-) TimerEvent: {}
+[24.997097] (-) TimerEvent: {}
+[25.099066] (-) TimerEvent: {}
+[25.110671] (my_interfaces) StdoutLine: {'line': b'[ 53%] Built target my_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[25.135437] (my_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[25.199200] (-) TimerEvent: {}
+[25.300101] (-) TimerEvent: {}
+[25.400462] (-) TimerEvent: {}
+[25.501276] (-) TimerEvent: {}
+[25.602490] (-) TimerEvent: {}
+[25.703210] (-) TimerEvent: {}
+[25.803746] (-) TimerEvent: {}
+[25.880337] (my_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/find_wall__type_support.cpp.o\x1b[0m\n'}
+[25.904162] (-) TimerEvent: {}
+[26.004551] (-) TimerEvent: {}
+[26.080233] (my_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[26.104664] (-) TimerEvent: {}
+[26.205607] (-) TimerEvent: {}
+[26.260631] (my_interfaces) StdoutLine: {'line': b'[ 62%] Built target my_interfaces__rosidl_typesupport_c\n'}
+[26.305732] (-) TimerEvent: {}
+[26.312058] (my_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[26.405851] (-) TimerEvent: {}
+[26.507829] (-) TimerEvent: {}
+[26.608767] (-) TimerEvent: {}
+[26.709194] (-) TimerEvent: {}
+[26.809581] (-) TimerEvent: {}
+[26.911570] (-) TimerEvent: {}
+[27.013085] (-) TimerEvent: {}
+[27.113509] (-) TimerEvent: {}
+[27.132295] (my_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/srv/detail/find_wall__type_support.c.o\x1b[0m\n'}
+[27.213638] (-) TimerEvent: {}
+[27.551623] (my_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking C shared library libmy_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[27.551908] (-) TimerEvent: {}
+[27.653434] (-) TimerEvent: {}
+[27.689062] (my_interfaces) StdoutLine: {'line': b'[ 71%] Built target my_interfaces__rosidl_typesupport_introspection_c\n'}
+[27.742682] (my_interfaces) StdoutLine: {'line': b'[ 71%] Built target my_interfaces\n'}
+[27.780133] (-) TimerEvent: {}
+[27.826042] (my_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[27.880250] (-) TimerEvent: {}
+[27.980657] (-) TimerEvent: {}
+[28.081499] (-) TimerEvent: {}
+[28.181888] (-) TimerEvent: {}
+[28.282218] (-) TimerEvent: {}
+[28.449462] (-) TimerEvent: {}
+[28.580159] (-) TimerEvent: {}
+[28.680511] (-) TimerEvent: {}
+[28.780895] (-) TimerEvent: {}
+[28.882307] (-) TimerEvent: {}
+[28.982683] (-) TimerEvent: {}
+[29.083059] (-) TimerEvent: {}
+[29.140606] (my_interfaces) StdoutLine: {'line': b'[ 75%] Built target my_interfaces__py\n'}
+[29.183299] (-) TimerEvent: {}
+[29.195855] (my_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/srv/_find_wall_s.c.o\x1b[0m\n'}
+[29.283409] (-) TimerEvent: {}
+[29.383870] (-) TimerEvent: {}
+[29.484282] (-) TimerEvent: {}
+[29.585037] (-) TimerEvent: {}
+[29.685446] (-) TimerEvent: {}
+[29.785855] (-) TimerEvent: {}
+[29.886329] (-) TimerEvent: {}
+[29.987129] (-) TimerEvent: {}
+[30.112277] (-) TimerEvent: {}
+[30.212572] (-) TimerEvent: {}
+[30.539798] (my_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/libmy_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[30.540071] (-) TimerEvent: {}
+[30.640363] (-) TimerEvent: {}
+[30.700115] (my_interfaces) StdoutLine: {'line': b'[ 81%] Built target my_interfaces__rosidl_generator_py\n'}
+[30.740491] (-) TimerEvent: {}
+[30.750827] (my_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[30.840717] (-) TimerEvent: {}
+[30.941347] (-) TimerEvent: {}
+[31.042355] (-) TimerEvent: {}
+[31.089625] (my_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[31.142491] (-) TimerEvent: {}
+[31.194578] (my_interfaces) StdoutLine: {'line': b'[ 87%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[31.242608] (-) TimerEvent: {}
+[31.290469] (my_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[31.344645] (-) TimerEvent: {}
+[31.451396] (-) TimerEvent: {}
+[31.549955] (my_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[31.551496] (-) TimerEvent: {}
+[31.651309] (my_interfaces) StdoutLine: {'line': b'[ 93%] Built target my_interfaces__rosidl_typesupport_c__pyext\n'}
+[31.651598] (-) TimerEvent: {}
+[31.731896] (my_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[31.751752] (-) TimerEvent: {}
+[31.880136] (-) TimerEvent: {}
+[31.980438] (-) TimerEvent: {}
+[32.018211] (my_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[32.080587] (-) TimerEvent: {}
+[32.124020] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[32.144280] (my_interfaces) CommandEnded: {'returncode': 0}
+[32.181063] (-) TimerEvent: {}
+[32.282156] (-) TimerEvent: {}
+[32.383056] (-) TimerEvent: {}
+[32.487058] (-) TimerEvent: {}
+[32.590968] (-) TimerEvent: {}
+[32.640717] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'install'}
+[32.683030] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/my_interfaces'], 'cwd': '/home/user/ros2_ws/build/my_interfaces', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://2_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '2_xterm'), ('PWD', '/home/user/ros2_ws/build/my_interfaces'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/my_turtle:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/my_turtle:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '2_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://2_xterm:11311'), ('ROS_HOSTNAME', '2_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '810513'), ('SLOT_PREFIX', '2e5fb2ee-c1c1-4cc3-a110-f5667178b539'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25314'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20002'), ('_', '/usr/bin/env')]), 'shell': False}
+[32.693918] (-) TimerEvent: {}
+[32.708016] (my_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.708823] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces\n'}
+[32.709441] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[32.710879] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[32.713664] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[32.713902] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/find_wall__functions.h\n'}
+[32.714088] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/find_wall__functions.c\n'}
+[32.714625] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/find_wall__struct.h\n'}
+[32.714905] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/find_wall__type_support.h\n'}
+[32.715250] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/find_wall.h\n'}
+[32.715746] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[32.716108] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[32.716698] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/environment/library_path.sh\n'}
+[32.717223] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/environment/library_path.dsv\n'}
+[32.717839] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so\n'}
+[32.718086] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so" to ""\n'}
+[32.718589] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[32.718847] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[32.719165] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[32.719542] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/find_wall__rosidl_typesupport_fastrtps_c.h\n'}
+[32.719798] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[32.720224] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[32.720698] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[32.721117] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[32.723733] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[32.723893] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[32.723974] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[32.724141] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/find_wall__type_support.c\n'}
+[32.724393] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/find_wall__rosidl_typesupport_introspection_c.h\n'}
+[32.724534] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[32.724912] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[32.725030] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[32.725122] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[32.725268] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so\n'}
+[32.725550] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[32.725638] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[32.725727] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[32.725811] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[32.726053] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/find_wall__struct.hpp\n'}
+[32.726171] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/find_wall__builder.hpp\n'}
+[32.726285] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/find_wall__traits.hpp\n'}
+[32.726451] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/find_wall.hpp\n'}
+[32.726645] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[32.726795] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[32.726890] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[32.726976] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/dds_fastrtps\n'}
+[32.727061] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/find_wall__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[32.727235] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[32.727442] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[32.727790] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[32.728296] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[32.728443] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[32.729016] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[32.729175] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[32.729297] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/find_wall__type_support.cpp\n'}
+[32.729417] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/find_wall__rosidl_typesupport_introspection_cpp.hpp\n'}
+[32.729536] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[32.729655] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[32.729775] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so\n'}
+[32.729904] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[32.730057] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/ament_index/resource_index/rust_packages/my_interfaces\n'}
+[32.730184] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust\n'}
+[32.730297] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust/Cargo.toml\n'}
+[32.730411] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust/src\n'}
+[32.730619] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust/src/srv.rs\n'}
+[32.730735] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust/src/lib.rs\n'}
+[32.730849] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust/build.rs\n'}
+[32.732677] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust\n'}
+[32.732825] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust/Cargo.toml\n'}
+[32.732946] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust/src\n'}
+[32.735093] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust/src/srv.rs\n'}
+[32.735299] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust/src/lib.rs\n'}
+[32.735428] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust/build.rs\n'}
+[32.735613] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust\n'}
+[32.735865] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust/Cargo.toml\n'}
+[32.735991] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust/src\n'}
+[32.736124] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust/src/srv.rs\n'}
+[32.736283] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust/src/lib.rs\n'}
+[32.736418] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/rust/build.rs\n'}
+[32.736533] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh\n'}
+[32.736697] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv\n'}
+[32.736869] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info\n'}
+[32.737279] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[32.737389] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[32.737483] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[32.737555] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[32.737635] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces\n'}
+[32.737732] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv\n'}
+[32.738119] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_find_wall.py\n'}
+[32.738206] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py\n'}
+[32.742612] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_find_wall_s.c\n'}
+[32.743016] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[32.743148] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.743255] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.743362] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[32.743465] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py\n'}
+[32.744402] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[32.744559] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/libmy_interfaces__rosidl_generator_py.so\n'}
+[32.744686] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.794049] (-) TimerEvent: {}
+[32.861705] (my_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces'...\n"}
+[32.862336] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py'...\n"}
+[32.862500] (my_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv'...\n"}
+[32.862617] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py'...\n"}
+[32.862718] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_find_wall.py'...\n"}
+[32.881668] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.881945] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[32.882152] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.882425] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[32.882555] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[32.882645] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[32.882729] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so\n'}
+[32.882863] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so" to ""\n'}
+[32.883021] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/srv/FindWall.idl\n'}
+[32.883518] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/srv/FindWall.srv\n'}
+[32.883632] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/srv/FindWall_Request.msg\n'}
+[32.883850] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/srv/FindWall_Response.msg\n'}
+[32.884370] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces\n'}
+[32.884588] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces\n'}
+[32.884888] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh\n'}
+[32.885805] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv\n'}
+[32.885990] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/environment/path.sh\n'}
+[32.886096] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/environment/path.dsv\n'}
+[32.886183] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.bash\n'}
+[32.886270] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.sh\n'}
+[32.886395] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.zsh\n'}
+[32.886480] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.dsv\n'}
+[32.886570] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/package.dsv\n'}
+[32.886729] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces\n'}
+[32.887853] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake\n'}
+[32.888097] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[32.888561] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[32.888751] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[32.888993] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[32.894160] (-) TimerEvent: {}
+[32.895599] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[32.895822] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[32.896198] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[32.896478] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake\n'}
+[32.896678] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[32.896818] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[32.897007] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[32.897220] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[32.897469] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[32.898269] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[32.898752] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake\n'}
+[32.899027] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[32.899194] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[32.899346] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[32.899524] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[32.899915] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[32.900081] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[32.900301] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[32.900513] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[32.900825] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake\n'}
+[32.901226] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake\n'}
+[32.901444] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/my_interfaces/share/my_interfaces/package.xml\n'}
+[32.926406] (my_interfaces) CommandEnded: {'returncode': 0}
+[32.995489] (-) TimerEvent: {}
+[33.096487] (-) TimerEvent: {}
+[33.196821] (-) TimerEvent: {}
+[33.297227] (-) TimerEvent: {}
+[33.400101] (-) TimerEvent: {}
+[33.419317] (my_interfaces) JobEnded: {'identifier': 'my_interfaces', 'rc': 0}
+[33.420951] (-) EventReactorShutdown: {}

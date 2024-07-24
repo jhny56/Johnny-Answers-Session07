@@ -1,0 +1,32 @@
+[3.545s] Invoking command in '/home/user/ros2_ws/src/my_turtle': PYTHONPATH=/home/user/ros2_ws/build/my_turtle/prefix_override:/home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_turtle build --build-base /home/user/ros2_ws/build/my_turtle/build install --record /home/user/ros2_ws/build/my_turtle/install.log --single-version-externally-managed install_data
+[4.632s] running egg_info
+[4.632s] writing ../../build/my_turtle/my_turtle.egg-info/PKG-INFO
+[4.633s] writing dependency_links to ../../build/my_turtle/my_turtle.egg-info/dependency_links.txt
+[4.633s] writing entry points to ../../build/my_turtle/my_turtle.egg-info/entry_points.txt
+[4.635s] writing requirements to ../../build/my_turtle/my_turtle.egg-info/requires.txt
+[4.635s] writing top-level names to ../../build/my_turtle/my_turtle.egg-info/top_level.txt
+[4.638s] reading manifest file '../../build/my_turtle/my_turtle.egg-info/SOURCES.txt'
+[4.639s] writing manifest file '../../build/my_turtle/my_turtle.egg-info/SOURCES.txt'
+[4.640s] running build
+[4.640s] running build_py
+[4.640s] copying my_turtle/lap_time_action_client.py -> /home/user/ros2_ws/build/my_turtle/build/lib/my_turtle
+[4.641s] copying my_turtle/turtle_avoid_wall.py -> /home/user/ros2_ws/build/my_turtle/build/lib/my_turtle
+[4.641s] running install
+[4.641s] running install_lib
+[4.643s] copying /home/user/ros2_ws/build/my_turtle/build/lib/my_turtle/lap_time_action_client.py -> /home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages/my_turtle
+[4.643s] copying /home/user/ros2_ws/build/my_turtle/build/lib/my_turtle/turtle_avoid_wall.py -> /home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages/my_turtle
+[4.643s] byte-compiling /home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages/my_turtle/lap_time_action_client.py to lap_time_action_client.cpython-310.pyc
+[4.644s] byte-compiling /home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages/my_turtle/turtle_avoid_wall.py to turtle_avoid_wall.cpython-310.pyc
+[4.645s] running install_data
+[4.645s] creating /home/user/ros2_ws/install/my_turtle/share/my_turtle/launch
+[4.646s] copying launch/launch_all_nodes.py -> /home/user/ros2_ws/install/my_turtle/share/my_turtle/launch
+[4.647s] running install_egg_info
+[4.650s] removing '/home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages/my_turtle-0.0.0-py3.10.egg-info' (and everything under it)
+[4.651s] Copying ../../build/my_turtle/my_turtle.egg-info to /home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages/my_turtle-0.0.0-py3.10.egg-info
+[4.652s] running install_scripts
+[4.733s] Installing find_wall_server script to /home/user/ros2_ws/install/my_turtle/lib/my_turtle
+[4.740s] Installing stop_on_obstacle script to /home/user/ros2_ws/install/my_turtle/lib/my_turtle
+[4.742s] Installing time_lap_client script to /home/user/ros2_ws/install/my_turtle/lib/my_turtle
+[4.742s] Installing time_lap_server script to /home/user/ros2_ws/install/my_turtle/lib/my_turtle
+[4.742s] writing list of installed files to '/home/user/ros2_ws/build/my_turtle/install.log'
+[4.812s] Invoked command in '/home/user/ros2_ws/src/my_turtle' returned '0': PYTHONPATH=/home/user/ros2_ws/build/my_turtle/prefix_override:/home/user/ros2_ws/install/my_turtle/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_turtle build --build-base /home/user/ros2_ws/build/my_turtle/build install --record /home/user/ros2_ws/build/my_turtle/install.log --single-version-externally-managed install_data

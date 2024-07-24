@@ -1,0 +1,40 @@
+{
+  "package_name": "my_interfaces",
+  "output_dir": "/home/user/ros2_ws/build/my_interfaces/rosidl_generator_rs/my_interfaces",
+  "template_dir": "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource",
+  "idl_tuples": [
+    "/home/user/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:action/MeasureLapTime.idl",
+    "/home/user/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/FindWall.idl"
+  ],
+  "ros_interface_files": [
+    "/home/user/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/FindWall.idl"
+  ],
+  "ros_interface_dependencies": [
+    "action_msgs:/home/simulations/ros2_sims_ws/install/action_msgs/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/home/simulations/ros2_sims_ws/install/action_msgs/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/home/simulations/ros2_sims_ws/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/home/simulations/ros2_sims_ws/install/action_msgs/share/action_msgs/srv/CancelGoal.idl",
+    "builtin_interfaces:/home/simulations/ros2_sims_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/simulations/ros2_sims_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs",
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../../../local/lib/python3.10/dist-packages/rosidl_generator_rs/__init__.py",
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/msg_idiomatic.rs.em",
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/msg_rmw.rs.em",
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/msg.rs.em",
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/srv.rs.em",
+    "/home/user/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/action/MeasureLapTime.idl",
+    "/home/user/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/FindWall.idl",
+    "/home/user/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/FindWall.idl",
+    "/home/simulations/ros2_sims_ws/install/action_msgs/share/action_msgs/msg/GoalInfo.idl",
+    "/home/simulations/ros2_sims_ws/install/action_msgs/share/action_msgs/msg/GoalStatus.idl",
+    "/home/simulations/ros2_sims_ws/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl",
+    "/home/simulations/ros2_sims_ws/install/action_msgs/share/action_msgs/srv/CancelGoal.idl",
+    "/home/simulations/ros2_sims_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "/home/simulations/ros2_sims_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl",
+    "/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "package_version": "0.0.0"
+}
